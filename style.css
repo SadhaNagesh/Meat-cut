@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital@1&family=Proza+Libre&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+.navbar{
+    padding: 15px;
+    background: #EB6440 !important;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbar-toggler{
+    color: white;
+}
+
+#navbarSupportedContent a{
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding-inline: 7px;
+}
+
+.search{
+    background: green;
+    color: white
+}
+
+.main{
+    background: url(image/background.jpg)no-repeat;
+    background-size: cover;
+    height: 800px;
+    background-position: 50% 50%;
+    width: 100%;
+}
+
+
+
+.title h1{
+    margin-top: 200px;
+    font-weight: bolder;
+    color: white;
+}
+
+.btn1{
+    background: #EB6440;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.btn1:hover{
+    background: green;
+    transition: .5s;
+}
+
+#about{
+    background: rgba(219, 217, 217, 0.2);
+}
+
+#about img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+
+}
+
+#about h1{
+    font-weight: bold;
+    margin-top: 70px;
+    color: #EB6440;
+}
+
+#about p{
+    color: rgba(0, 0, 0, 0.753);
+}
+
+#about h3{
+    font-weight: bold;
+    color: green;
+}
+
+h1{
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
